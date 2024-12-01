@@ -1,0 +1,37 @@
+body {
+    background: #fff;
+    font-family: "Rubik";
+    color: #0B132A;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+a {
+    text-decoration: none;
+    color: #4F5665;
+}
+
+li {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 40px;
+    }
+}
