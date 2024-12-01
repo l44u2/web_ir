@@ -1,0 +1,33 @@
+body {
+    background: #fff;
+    font-family: "Rubik";
+    color: #0B132A;
+}
+
+
+@media and (max-width: 768px) {
+    body {
+        text-allign: center;
+    }
+}
+
+
+@media and (max-width: 450px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+a {
+    text-decoration: none;
+    color: #4F5665;
+}
+
+li {
+    display: block;
+}
