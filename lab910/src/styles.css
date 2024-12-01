@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.select {
+    padding: 10px;
+    font-size: 1em;
+}
+
+.primary-button, .primary-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    max-height: 50px;
+}
+
+a {
+    color: inherit; 
+    text-decoration: none; 
+}
+

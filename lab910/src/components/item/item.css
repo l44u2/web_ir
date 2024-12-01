@@ -1,0 +1,39 @@
+.item__component {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.item__image {
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px; 
+}
+
+.item__details {
+    max-width: 50%;
+}
+
+.item__field {
+    margin-bottom: 10px;
+}
+
+.item__actions {
+    display: flex;
+    margin-top: 200px;
+    gap: 1000px;
+}
+
+.item__adb {
+    display: flex;
+    gap: 50px;
+}
+
+.item__count {
+    display: flex;
+    gap: 50px;
+    max-height: 25px;
+}

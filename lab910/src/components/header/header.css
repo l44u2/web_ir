@@ -1,0 +1,29 @@
+.header__component {
+    background-color: #f0f0f0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.header__logo {
+    max-height: 50px; 
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+    margin-right: 88px;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,55 @@
+.card__component {
+    text-align: center;
+    padding: 20px;
+    margin-top: 75px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.card__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.card__card {
+    max-width: 400px;
+    background-color: #f0f0f0; 
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px; 
+}
+
+.card__image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 245px;
+    max-width: 368px;
+}
+
+.card__heading {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card__paragraph {
+    font-size: 0.9em;
+}
+
+.card__button {
+    padding-top: 50px;
+}
+
+.card__button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white; 
+    text-decoration: none;
+    margin-top: 60px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
